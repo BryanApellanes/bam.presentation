@@ -1,4 +1,6 @@
-namespace Bam.Presentation;
+using Bam;
+
+namespace bam.presentation.Web;
 
 public class WebRenderer : IWebRenderer
 {
