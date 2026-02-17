@@ -4,9 +4,9 @@ namespace bam.presentation.Web;
 
 public class WebRenderer : IWebRenderer
 {
-    public string[] Extensions { get; set; }
-    public string ContentType { get; set; }
-    public Stream OutputStream { get; set; }
+    public string[] Extensions { get; set; } = null!;
+    public string ContentType { get; set; } = null!;
+    public Stream OutputStream { get; set; } = null!;
     void IWebRenderer.Render(object toRender)
     {
         throw new NotImplementedException();

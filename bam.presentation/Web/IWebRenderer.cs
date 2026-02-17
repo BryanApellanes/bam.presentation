@@ -11,6 +11,6 @@ namespace bam.presentation.Web
         string[] Extensions { get; set; }
         string ContentType { get; set; }
         Stream OutputStream { get; set; }
-        void Render(object toRender);        
+        new void Render(object toRender);
     }
 }
